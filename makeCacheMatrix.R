@@ -2,8 +2,8 @@
 # meaning the supplied matrix should a Square matrix (n by n) only
 
 # makeCacheMatrix function will take three inputs: Values of the matrix (Column wise),
-# number of Rows, and number of columns and returns a list of the following functions: 
-# getMatrix, setInverse and getInverse
+# number of Rows, and number of columns and returns a list of the following three 
+# functions: getMatrix, setInverse and getInverse
 
 makeCacheMatrix <- function(y = numeric(),nR, nC){
   if((nR != nC) || (length(y) != nR*nC)) {
